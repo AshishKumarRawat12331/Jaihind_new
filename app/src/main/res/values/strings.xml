@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">JAIHIND POLYTECHNIC</string>
+    <string name="google_place_key">AIzaSyCkpn7jAbY-rccPDgEYuexKCBO1GPVqBTU</string>
+    <string name="network_error_title">Network Error!</string>
+    <string name="network_error_message">Please check your network connection and try again.</string>
+    <string name="about_us_message">The plan of Saharsa College Of Engineering (SCE), Saharsa is to make it a state of the art technology centre and research hub. The first session commenced from 2017 with an intake of 240 students in four streams of engineering viz. Civil, Mechanical, Electrical and Electronics &amp; Communication Engineering.
+</string>
+    <string name="login_signup">Login</string>
+    <string name="register_here"><u>Register Here</u></string>
+    <string name="registerssss_here"><u>Sign in !</u></string>
+    <string name="wlccmback"><u>Welcome Back</u></string>
+    <string name="player_error">Error initializing YouTube player: %s</string>
+    <string name="err_msg_new_pass">Please Enter Your New Password</string>
+    <string name="err_msg_cnf_pass">Please Enter Your Confirm Password</string>
+    <string name="err_msg_match_pass">New Password and Confirm Password does not match.</string>
+    <string name="err_msg_old_pass">Please Enter Your Old Password</string>
+
+    <!--<string name="banner" translatable="false">"ca-app-pub-3940256099942544/6300978111"</string>-->
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="permission_msg">Gallery and Camera permission is required</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+</resources>

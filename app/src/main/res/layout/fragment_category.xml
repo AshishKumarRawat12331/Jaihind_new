@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.LectureFragment">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+  android:orientation="vertical">
+
+
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="60dp"
+     android:layout_margin="@dimen/_2sdp"
+      android:gravity="center"
+     android:background="@drawable/whiterect"
+     android:orientation="horizontal">
+
+  <ImageView
+      android:layout_width="50dp"
+      android:src="@drawable/analytics"
+      android:padding="@dimen/_8sdp"
+      android:layout_height="50dp"/>
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_marginLeft="55dp"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+
+      >
+
+
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="@dimen/_10sdp"
+       android:textColor="@color/black"
+       android:text="Business"
+       android:textStyle="bold"
+       android:layout_marginTop="@dimen/_5sdp"
+       />
+
+
+
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="@dimen/_10sdp"
+       android:textColor="@color/grey_dot"
+       android:layout_marginTop="@dimen/_2sdp"
+       android:text="24 Courses"
+       android:layout_marginBottom="@dimen/_1sdp" />
+
+
+  </LinearLayout>
+
+  <ImageView
+      android:layout_width="50dp"
+      android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+      android:layout_alignParentRight="true"
+      android:padding="@dimen/_8sdp"
+      android:layout_height="50dp"/>
+
+
+ </RelativeLayout>
+
+
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="60dp"
+     android:layout_margin="@dimen/_2sdp"
+     android:gravity="center"
+     android:background="@drawable/whiterect"
+     android:orientation="horizontal">
+
+  <ImageView
+      android:layout_width="50dp"
+      android:src="@drawable/developing"
+      android:padding="@dimen/_8sdp"
+      android:layout_height="50dp"/>
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_marginLeft="55dp"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+
+      >
+
+
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="@dimen/_10sdp"
+       android:textColor="@color/black"
+       android:text="Personal Development"
+       android:textStyle="bold"
+       android:layout_marginTop="@dimen/_5sdp"
+       />
+
+
+
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="@dimen/_10sdp"
+       android:textColor="@color/grey_dot"
+       android:layout_marginTop="@dimen/_2sdp"
+       android:text="24 Courses"
+       android:layout_marginBottom="@dimen/_1sdp" />
+
+
+  </LinearLayout>
+
+  <ImageView
+      android:layout_width="50dp"
+      android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+      android:layout_alignParentRight="true"
+      android:padding="@dimen/_8sdp"
+      android:layout_height="50dp"/>
+
+
+ </RelativeLayout>
+
+
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="60dp"
+     android:layout_margin="@dimen/_2sdp"
+     android:gravity="center"
+     android:background="@drawable/whiterect"
+     android:orientation="horizontal">
+
+  <ImageView
+      android:layout_width="50dp"
+      android:src="@drawable/webdesign"
+      android:padding="@dimen/_8sdp"
+      android:layout_height="50dp"/>
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_marginLeft="55dp"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+
+      >
+
+
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="@dimen/_10sdp"
+       android:textColor="@color/black"
+       android:text="Design"
+       android:textStyle="bold"
+       android:layout_marginTop="@dimen/_5sdp"
+       />
+
+
+
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="@dimen/_10sdp"
+       android:textColor="@color/grey_dot"
+       android:layout_marginTop="@dimen/_2sdp"
+       android:text="24 Courses"
+       android:layout_marginBottom="@dimen/_1sdp" />
+
+
+  </LinearLayout>
+
+  <ImageView
+      android:layout_width="50dp"
+      android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+      android:layout_alignParentRight="true"
+      android:padding="@dimen/_8sdp"
+      android:layout_height="50dp"/>
+
+
+ </RelativeLayout>
+
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="60dp"
+     android:layout_margin="@dimen/_2sdp"
+     android:gravity="center"
+     android:background="@drawable/whiterect"
+     android:orientation="horizontal">
+
+  <ImageView
+      android:layout_width="50dp"
+      android:src="@drawable/analytics"
+      android:padding="@dimen/_8sdp"
+      android:layout_height="50dp"/>
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_marginLeft="55dp"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+
+      >
+
+
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="@dimen/_10sdp"
+       android:textColor="@color/black"
+       android:text="lifestyle"
+       android:textStyle="bold"
+       android:layout_marginTop="@dimen/_5sdp"
+       />
+
+
+
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="@dimen/_10sdp"
+       android:textColor="@color/grey_dot"
+       android:layout_marginTop="@dimen/_2sdp"
+       android:text="24 Courses"
+       android:layout_marginBottom="@dimen/_1sdp" />
+
+
+  </LinearLayout>
+
+  <ImageView
+      android:layout_width="50dp"
+      android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+      android:layout_alignParentRight="true"
+      android:padding="@dimen/_8sdp"
+      android:layout_height="50dp"/>
+
+
+ </RelativeLayout>
+
+
+</LinearLayout>
+
+
+
+
+</FrameLayout>

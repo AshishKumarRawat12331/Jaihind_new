@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/click_job"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Marketing"
+                android:textAllCaps="true"
+                android:drawableTint="@color/black"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp"
+                android:id="@+id/couress_category"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:padding="@dimen/_6sdp" />
+
+        </LinearLayout>
+
+       <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_alignParentRight="true"
+           android:id="@+id/View_all_li"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  View All  "
+                android:textAllCaps="true"
+                android:drawableTint="@color/black"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_10sdp"
+                android:background="@drawable/rect_new"
+                android:backgroundTint="@color/grey_dot"
+                android:layout_margin="@dimen/_8sdp"
+                 android:padding="@dimen/_5sdp" />
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_couress"
+        android:layout_marginBottom="@dimen/_1sdp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/_5sdp"
+        android:layout_below="@+id/uploadrrr"
+        android:scrollbars="vertical" />
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.jaiselrahman:FilePicker:feature~api29_support-SNAPSHOT@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/318acbbf53855deb176a1c93c96aa2b0/FilePicker-feature~api29_support-SNAPSHOT/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/318acbbf53855deb176a1c93c96aa2b0/FilePicker-feature~api29_support-SNAPSHOT/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/318acbbf53855deb176a1c93c96aa2b0/FilePicker-feature~api29_support-SNAPSHOT/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/318acbbf53855deb176a1c93c96aa2b0/FilePicker-feature~api29_support-SNAPSHOT/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jaiselrahman/FilePicker/feature~api29_support-SNAPSHOT/75e33f792a0ece139f7fbfb40e0b2e035784eecc/FilePicker-feature~api29_support-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

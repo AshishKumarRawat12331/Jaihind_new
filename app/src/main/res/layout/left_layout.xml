@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_toolbar">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="125sp">
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@color/colorPrimary">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:id="@+id/imageView1"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:padding="@dimen/_5sdp"
+                 android:src="@mipmap/ic_launcher" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_centerVertical="true"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_toRightOf="@+id/imageView1"
+
+                android:paddingLeft="@dimen/_5sdp"
+                android:paddingRight="@dimen/_5sdp">
+
+                <TextView
+                    android:id="@+id/name"
+                    android:singleLine="true"
+                    android:text="@string/app_name"
+                    style="@style/TextAppearance.AppCompat.Subhead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Body2"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/emailid"
+                    android:singleLine="true"
+                    android:text="lms@gmail.com"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:singleLine="true"
+
+                    android:id="@+id/phone"
+                    android:text="+91- 8586848525"
+                    style="@style/TextAppearance.AppCompat.Body2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+   <!-- <androidx.appcompat.widget.AppCompatTextView
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:padding="@dimen/_5sdp"
+         android:layout_marginLeft="@dimen/_2sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:textColor="@color/grayText"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:drawableLeft="@drawable/ic_baseline_home_24"
+        android:drawableTint="@color/grayText"
+        android:drawablePadding="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/_12sdp"
+
+        android:singleLine="true"
+        android:text="Home"/>
+
+     <androidx.appcompat.widget.AppCompatTextView
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:padding="@dimen/_5sdp"
+         android:layout_marginLeft="@dimen/_2sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:textColor="@color/grayText"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:drawableLeft="@drawable/ic__category"
+        android:drawableTint="@color/grayText"
+        android:drawablePadding="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/_12sdp"
+
+        android:singleLine="true"
+        android:text="My Courses"/>
+
+
+     <androidx.appcompat.widget.AppCompatTextView
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:padding="@dimen/_5sdp"
+         android:layout_marginLeft="@dimen/_2sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:textColor="@color/grayText"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:drawableLeft="@drawable/ic__category"
+        android:drawableTint="@color/grayText"
+        android:drawablePadding="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/_12sdp"
+
+        android:singleLine="true"
+        android:text="Category"/>
+
+     <androidx.appcompat.widget.AppCompatTextView
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:padding="@dimen/_5sdp"
+         android:layout_marginLeft="@dimen/_2sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:textColor="@color/grayText"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:drawableLeft="@drawable/ic_newww"
+        android:drawableTint="@color/grayText"
+        android:drawablePadding="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/_12sdp"
+
+        android:singleLine="true"
+        android:text="News"/>
+
+     <androidx.appcompat.widget.AppCompatTextView
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:padding="@dimen/_5sdp"
+         android:layout_marginLeft="@dimen/_2sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:textColor="@color/grayText"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:drawableLeft="@drawable/ic__userrrr"
+        android:drawableTint="@color/grayText"
+        android:drawablePadding="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/_12sdp"
+         android:singleLine="true"
+        android:text="User"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:padding="@dimen/_5sdp"
+         android:layout_marginLeft="@dimen/_2sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:textColor="@color/grayText"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:drawableLeft="@drawable/ic_menu_white_24dp"
+        android:drawableTint="@color/grayText"
+        android:drawablePadding="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/_12sdp"
+         android:singleLine="true"
+        android:text="More"/>-->
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:padding="@dimen/_5sdp"
+         android:layout_marginLeft="@dimen/_2sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:drawableLeft="@drawable/ic_change_pass"
+        android:drawableTint="@color/white"
+        android:drawablePadding="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/_12sdp"
+         android:id="@+id/Change_Password"
+        android:singleLine="true"
+        android:text="Change Password"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:padding="@dimen/_5sdp"
+         android:layout_marginLeft="@dimen/_2sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:drawableLeft="@drawable/ic_baseline_report_24"
+        android:drawableTint="@color/white"
+        android:drawablePadding="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/_12sdp"
+         android:id="@+id/my_course"
+        android:singleLine="true"
+        android:text="My Course"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:padding="@dimen/_5sdp"
+         android:layout_marginLeft="@dimen/_2sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:drawableLeft="@drawable/ic_profile"
+        android:drawableTint="@color/white"
+        android:drawablePadding="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/_12sdp"
+        android:singleLine="true"
+        android:id="@+id/Profile"
+        android:text="Profile"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:padding="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_2sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:drawableLeft="@drawable/ic_about"
+        android:drawableTint="@color/white"
+        android:drawablePadding="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/_12sdp"
+        android:id="@+id/tv_About"
+        android:singleLine="true"
+        android:text="About"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:padding="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_2sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:drawableLeft="@drawable/ic_logout"
+        android:drawableTint="@color/white"
+        android:drawablePadding="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/_12sdp"
+        android:singleLine="true"
+        android:id="@+id/Logout"
+        android:text="Logout"/>
+
+</LinearLayout>

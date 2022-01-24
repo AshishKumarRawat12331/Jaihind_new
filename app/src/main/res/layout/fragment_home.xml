@@ -1,0 +1,1395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Dashboard.ui.ServiceFragment">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+                android:visibility="gone"
+                android:layout_height="@dimen/_40sdp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:drawableLeft="@drawable/nav_location"
+                    android:drawableTint="@color/white"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:text="  Lucknow  "
+                    android:id="@+id/city_name"
+                    android:textColor="@color/white"
+                     android:textSize="16sp" />
+
+                <!--   android:drawableRight="@drawable/vw_ic_arrow_down"-->
+
+                <ImageView
+                    android:layout_width="23dp"
+                    android:id="@+id/heart_im"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_heart"
+                    android:padding="@dimen/_2sdp"
+                    android:layout_marginRight="@dimen/_40sdp"
+                    android:tint="@color/white"
+                    android:layout_alignParentRight="true"
+                    android:layout_height="25dp"/>
+
+
+
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/notification"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:tint="@color/white"
+                    android:layout_alignParentRight="true"
+                    android:layout_height="@dimen/_20sdp"/>
+
+
+            </RelativeLayout>
+
+            <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:visibility="gone"
+                    android:background="#f5f5f5">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:padding="@dimen/_10sdp"
+                        android:background="@drawable/rectdashboad"
+                        android:layout_toLeftOf="@+id/filterView"
+                        android:layout_marginRight="@dimen/_8sdp"
+                        android:id="@+id/search"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:drawableLeft="@drawable/ic_search_white_24dp"
+                        android:text="  Search"
+                        android:textColor="@color/colorPrimary" />
+
+                    <LinearLayout
+                        android:id="@+id/filterView"
+                        android:background="@drawable/rectdashboad"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center|center_vertical"
+                        android:padding="@dimen/_10sdp">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:tint="@color/colorPrimary"
+                            app:srcCompat="@drawable/ic_filter" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_8sdp"
+                            android:gravity="center"
+                            android:text="Filter"
+                            android:textColor="@color/colorPrimary" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:text="One Million Success Stories.
+Search &amp; Apply Online on All Jobs."
+                    android:padding="@dimen/_10sdp"
+                    android:textColor="#CDCD38"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:background="@drawable/rect"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:text="What are you looking for?"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="16sp" />
+
+
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:visibility="gone"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:layout_marginBottom="@dimen/_15sdp"
+                        android:background="@drawable/background_login"
+                        android:elevation="@dimen/_15sdp"
+                        app:layout_constraintBottom_toTopOf="@+id/clEnterOtp"
+                        app:layout_constraintEnd_toStartOf="@+id/clGetOtp"
+                        app:layout_constraintStart_toStartOf="parent">
+
+
+                        <ImageView
+                            android:id="@+id/ivMobileNo"
+                            android:visibility="gone"
+                            android:layout_width="@dimen/_13sdp"
+                            android:layout_height="@dimen/_13sdp"
+                            android:layout_marginLeft="@dimen/_15sdp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/ic_mobile_no" />
+
+                        <EditText
+                            android:id="@+id/etMobileNo"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent"
+                            android:gravity="center_vertical"
+                            android:hint="Enter Skills, job title or company"
+                            android:inputType="number"
+                            android:maxLength="10"
+                            android:paddingLeft="@dimen/_10sdp"
+                            android:paddingRight="@dimen/_10sdp"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/ivMobileNo" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:text="Location"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="16sp" />
+
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:layout_marginBottom="@dimen/_15sdp"
+                        android:background="@drawable/background_login"
+                        android:elevation="@dimen/_15sdp"
+                        app:layout_constraintBottom_toTopOf="@+id/clEnterOtp"
+                        app:layout_constraintEnd_toStartOf="@+id/clGetOtp"
+                        app:layout_constraintStart_toStartOf="parent">
+
+
+
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent"
+                            android:gravity="center_vertical"
+                            android:hint="Enter City or State"
+                            android:inputType="number"
+                            android:maxLength="10"
+                            android:paddingLeft="@dimen/_10sdp"
+                            android:paddingRight="@dimen/_10sdp"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp"
+                            app:layout_constraintEnd_toEndOf="parent" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:id="@+id/login"
+                        android:layout_marginStart="@dimen/_30sdp"
+                        android:layout_marginLeft="@dimen/_30sdp"
+                        android:layout_marginEnd="@dimen/_30sdp"
+                        android:layout_marginRight="@dimen/_30sdp"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:textSize="12sp"
+                        android:text="  Find Job  "
+                        android:backgroundTint="@color/colorPrimary"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:fontFamily="serif"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:background="@drawable/background_login"/>
+
+                </LinearLayout>
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:visibility="gone"
+                   android:layout_height="wrap_content">
+
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_centerInParent="true"
+                       android:layout_height="@dimen/_40sdp"
+                       android:textSize="14sp"
+                       android:background="@drawable/rect"
+                       android:backgroundTint="@color/colorPrimary"
+                       android:text="      Related Jobs for You     "
+                       android:textColor="@color/white"
+                       android:textStyle="bold"
+                       android:layout_gravity="center"
+                       android:gravity="center"
+                       android:fontFamily="serif"
+                       android:paddingTop="5dp"
+                       android:paddingBottom="5dp"
+                       android:paddingLeft="5dp"
+                       android:paddingRight="5dp" />
+
+                   <View
+                       android:layout_width="match_parent"
+                       android:layout_marginTop="@dimen/_40sdp"
+                       android:background="@color/colorPrimary"
+                       android:layout_height="@dimen/_3sdp"/>
+
+
+               </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:layout_margin="@dimen/_5sdp"
+                     android:layout_marginTop="@dimen/_5sdp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rectbackgra"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:textColor="@color/white"
+                        android:padding="@dimen/_2sdp"
+                        android:textSize="@dimen/_10sdp"
+                        android:text="  All  "/>
+
+                  <TextView
+                        android:layout_width="wrap_content"
+                      android:id="@+id/Functional_areate"
+                      android:padding="@dimen/_2sdp"
+                      android:textSize="@dimen/_10sdp"
+                      android:layout_marginLeft="@dimen/_30sdp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rectdashboad"
+                         android:textColor="@color/colorPrimary"
+                        android:text=""/>
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/edit_type"
+                         android:padding="@dimen/_2sdp"
+                        android:textSize="@dimen/_10sdp"
+                        android:drawablePadding="@dimen/_2sdp"
+                        android:drawableLeft="@drawable/ic_edit_button"
+                        android:drawableTint="@color/colorPrimary"
+                        android:layout_marginLeft="@dimen/_30sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                         android:textColor="@color/colorPrimary"
+                        android:text="  Edit  "/>
+
+
+                </RelativeLayout>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:background="@color/white"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#ECECEC"
+                        android:orientation="vertical">
+
+                        <androidx.viewpager.widget.ViewPager
+                            xmlns:android="http://schemas.android.com/apk/res/android"
+                            android:id="@+id/pager"
+                            android:layout_width="match_parent"
+                            android:layout_height="250sp">
+                        </androidx.viewpager.widget.ViewPager>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:visibility="gone"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:layout_height="wrap_content">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Newest courses"
+                                android:textAllCaps="true"
+                                android:singleLine="true"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:fontFamily="serif"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:layout_marginBottom="@dimen/_5sdp"
+                                android:gravity="left"
+                                 android:paddingTop="@dimen/_5sdp"
+                                android:textSize="@dimen/_12sdp" />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:layout_alignParentRight="true"
+                                android:layout_height="@dimen/_20sdp"
+                                android:text="  View More  "
+                                android:background="@drawable/whiterect"
+                                android:backgroundTint="#412393"
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                android:textAllCaps="true"
+                                android:singleLine="true"
+                                android:layout_centerInParent="true"
+                                android:textColor="@color/white"
+                                android:textStyle="bold"
+                                android:fontFamily="serif"
+                                android:gravity="center"
+                                android:textSize="@dimen/_8sdp" />
+
+                        </RelativeLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="PROFESSORS OF Civil Lms"
+                            android:layout_gravity="center"
+                            android:textAllCaps="true"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_10sdp"
+                            android:singleLine="true"
+                            android:background="#EF0173"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:fontFamily="serif"
+                             android:gravity="center"
+                             android:textSize="@dimen/_12sdp" />
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="@dimen/_2sdp"
+                                    android:layout_marginRight="@dimen/_2sdp"
+                                    android:layout_marginLeft="@dimen/_2sdp"
+                                     android:background="@drawable/whiterect"
+                                    android:padding="@dimen/_2sdp"
+                                    android:orientation="vertical"
+                                    android:layout_weight="1">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="horizontal"
+                                        android:layout_marginTop="@dimen/_2sdp">
+
+                                        <ImageView
+                                            android:layout_width="@dimen/_90sdp"
+                                            android:layout_height="@dimen/_70sdp"
+                                            android:layout_gravity="center"
+                                             android:src="@drawable/babbb"/>
+
+                                       <LinearLayout
+                                           android:layout_width="match_parent"
+                                           android:layout_height="wrap_content"
+                                           android:layout_marginLeft="@dimen/_5sdp"
+                                           android:layout_marginRight="@dimen/_5sdp"
+                                           android:orientation="vertical">
+
+
+                                           <TextView
+                                               android:layout_width="match_parent"
+                                               android:layout_height="wrap_content"
+                                               android:textSize="@dimen/_10sdp"
+                                               android:textColor="@color/black"
+                                               android:text="Mr. Atul Chaturvedi"
+                                               android:layout_marginTop="@dimen/_5sdp" />
+
+                                           <TextView
+                                               android:layout_width="match_parent"
+                                               android:layout_height="wrap_content"
+                                               android:textSize="@dimen/_10sdp"
+                                               android:textColor="@color/green"
+                                               android:layout_marginTop="@dimen/_2sdp"
+                                               android:text="Executive Chairman-Shree Renuka Sugars Ltd." />
+
+                                           <TextView
+                                               android:layout_width="match_parent"
+                                               android:layout_height="wrap_content"
+                                               android:textSize="@dimen/_10sdp"
+                                               android:textColor="@color/grey_dot"
+                                               android:layout_marginTop="@dimen/_2sdp"
+                                               android:text="President-Solvent Extractors Association of India Joined Adani Group in 1997" />
+
+
+                                       </LinearLayout>
+
+
+
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+
+
+
+                            </LinearLayout>
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_marginTop="@dimen/_2sdp"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="@dimen/_2sdp"
+                                    android:layout_marginRight="@dimen/_2sdp"
+                                    android:layout_marginLeft="@dimen/_2sdp"
+                                    android:background="@drawable/whiterect"
+                                    android:padding="@dimen/_2sdp"
+                                    android:orientation="vertical"
+                                    android:layout_weight="1">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="horizontal"
+                                        android:layout_marginTop="@dimen/_2sdp">
+
+                                        <ImageView
+                                            android:layout_width="@dimen/_90sdp"
+                                            android:layout_height="@dimen/_70sdp"
+                                            android:layout_gravity="center"
+                                             android:src="@drawable/babbb"/>
+
+                                       <LinearLayout
+                                           android:layout_width="match_parent"
+                                           android:layout_height="wrap_content"
+                                           android:layout_marginLeft="@dimen/_5sdp"
+                                           android:layout_marginRight="@dimen/_5sdp"
+                                           android:orientation="vertical">
+
+
+                                           <TextView
+                                               android:layout_width="match_parent"
+                                               android:layout_height="wrap_content"
+                                               android:textSize="@dimen/_10sdp"
+                                               android:textColor="@color/black"
+                                               android:text="Mr. Atul Chaturvedi"
+                                               android:layout_marginTop="@dimen/_5sdp" />
+
+                                           <TextView
+                                               android:layout_width="match_parent"
+                                               android:layout_height="wrap_content"
+                                               android:textSize="@dimen/_10sdp"
+                                               android:textColor="@color/green"
+                                               android:layout_marginTop="@dimen/_2sdp"
+                                               android:text="Executive Chairman-Shree Renuka Sugars Ltd." />
+
+                                           <TextView
+                                               android:layout_width="match_parent"
+                                               android:layout_height="wrap_content"
+                                               android:textSize="@dimen/_10sdp"
+                                               android:textColor="@color/grey_dot"
+                                               android:layout_marginTop="@dimen/_2sdp"
+                                               android:text="President-Solvent Extractors Association of India Joined Adani Group in 1997" />
+
+
+                                       </LinearLayout>
+
+
+
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+
+
+
+                            </LinearLayout>
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                 android:layout_marginTop="@dimen/_2sdp"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="@dimen/_2sdp"
+                                    android:layout_marginRight="@dimen/_2sdp"
+                                    android:layout_marginLeft="@dimen/_2sdp"
+                                    android:background="@drawable/whiterect"
+                                    android:padding="@dimen/_2sdp"
+                                    android:orientation="vertical"
+                                    android:layout_weight="1">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="horizontal"
+                                        android:layout_marginTop="@dimen/_2sdp">
+
+                                        <ImageView
+                                            android:layout_width="@dimen/_90sdp"
+                                            android:layout_height="@dimen/_70sdp"
+                                            android:layout_gravity="center"
+                                             android:src="@drawable/babbb"/>
+
+                                       <LinearLayout
+                                           android:layout_width="match_parent"
+                                           android:layout_height="wrap_content"
+                                           android:layout_marginLeft="@dimen/_5sdp"
+                                           android:layout_marginRight="@dimen/_5sdp"
+                                           android:orientation="vertical">
+
+
+                                           <TextView
+                                               android:layout_width="match_parent"
+                                               android:layout_height="wrap_content"
+                                               android:textSize="@dimen/_10sdp"
+                                               android:textColor="@color/black"
+                                               android:text="Mr. Atul Chaturvedi"
+                                               android:layout_marginTop="@dimen/_5sdp" />
+
+                                           <TextView
+                                               android:layout_width="match_parent"
+                                               android:layout_height="wrap_content"
+                                               android:textSize="@dimen/_10sdp"
+                                               android:textColor="@color/green"
+                                               android:layout_marginTop="@dimen/_2sdp"
+                                               android:text="Executive Chairman-Shree Renuka Sugars Ltd." />
+
+                                           <TextView
+                                               android:layout_width="match_parent"
+                                               android:layout_height="wrap_content"
+                                               android:textSize="@dimen/_10sdp"
+                                               android:textColor="@color/grey_dot"
+                                               android:layout_marginTop="@dimen/_2sdp"
+                                               android:text="President-Solvent Extractors Association of India Joined Adani Group in 1997" />
+
+
+                                       </LinearLayout>
+
+
+
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+
+
+
+                            </LinearLayout>
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                 android:layout_marginTop="@dimen/_2sdp"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="@dimen/_2sdp"
+                                    android:layout_marginRight="@dimen/_2sdp"
+                                    android:layout_marginLeft="@dimen/_2sdp"
+                                    android:background="@drawable/whiterect"
+                                    android:padding="@dimen/_2sdp"
+                                    android:orientation="vertical"
+                                    android:layout_weight="1">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="horizontal"
+                                        android:layout_marginTop="@dimen/_2sdp">
+
+                                        <ImageView
+                                            android:layout_width="@dimen/_90sdp"
+                                            android:layout_height="@dimen/_70sdp"
+                                            android:layout_gravity="center"
+                                             android:src="@drawable/babbb"/>
+
+                                       <LinearLayout
+                                           android:layout_width="match_parent"
+                                           android:layout_height="wrap_content"
+                                           android:layout_marginLeft="@dimen/_5sdp"
+                                           android:layout_marginRight="@dimen/_5sdp"
+                                           android:orientation="vertical">
+
+
+                                           <TextView
+                                               android:layout_width="match_parent"
+                                               android:layout_height="wrap_content"
+                                               android:textSize="@dimen/_10sdp"
+                                               android:textColor="@color/black"
+                                               android:text="Mr. Atul Chaturvedi"
+                                               android:layout_marginTop="@dimen/_5sdp" />
+
+                                           <TextView
+                                               android:layout_width="match_parent"
+                                               android:layout_height="wrap_content"
+                                               android:textSize="@dimen/_10sdp"
+                                               android:textColor="@color/green"
+                                               android:layout_marginTop="@dimen/_2sdp"
+                                               android:text="Executive Chairman-Shree Renuka Sugars Ltd." />
+
+                                           <TextView
+                                               android:layout_width="match_parent"
+                                               android:layout_height="wrap_content"
+                                               android:textSize="@dimen/_10sdp"
+                                               android:textColor="@color/grey_dot"
+                                               android:layout_marginTop="@dimen/_2sdp"
+                                               android:text="President-Solvent Extractors Association of India Joined Adani Group in 1997" />
+
+
+                                       </LinearLayout>
+
+
+
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+
+
+
+                            </LinearLayout>
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                 android:layout_marginTop="@dimen/_2sdp"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="@dimen/_2sdp"
+                                    android:layout_marginRight="@dimen/_2sdp"
+                                    android:layout_marginLeft="@dimen/_2sdp"
+                                    android:background="@drawable/whiterect"
+                                    android:padding="@dimen/_2sdp"
+                                    android:orientation="vertical"
+                                    android:layout_weight="1">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="horizontal"
+                                        android:layout_marginTop="@dimen/_2sdp">
+
+                                        <ImageView
+                                            android:layout_width="@dimen/_90sdp"
+                                            android:layout_height="@dimen/_70sdp"
+                                            android:layout_gravity="center"
+                                             android:src="@drawable/babbb"/>
+
+                                       <LinearLayout
+                                           android:layout_width="match_parent"
+                                           android:layout_height="wrap_content"
+                                           android:layout_marginLeft="@dimen/_5sdp"
+                                           android:layout_marginRight="@dimen/_5sdp"
+                                           android:orientation="vertical">
+
+
+                                           <TextView
+                                               android:layout_width="match_parent"
+                                               android:layout_height="wrap_content"
+                                               android:textSize="@dimen/_10sdp"
+                                               android:textColor="@color/black"
+                                               android:text="Mr. Atul Chaturvedi"
+                                               android:layout_marginTop="@dimen/_5sdp" />
+
+                                           <TextView
+                                               android:layout_width="match_parent"
+                                               android:layout_height="wrap_content"
+                                               android:textSize="@dimen/_10sdp"
+                                               android:textColor="@color/green"
+                                               android:layout_marginTop="@dimen/_2sdp"
+                                               android:text="Executive Chairman-Shree Renuka Sugars Ltd." />
+
+                                           <TextView
+                                               android:layout_width="match_parent"
+                                               android:layout_height="wrap_content"
+                                               android:textSize="@dimen/_10sdp"
+                                               android:textColor="@color/grey_dot"
+                                               android:layout_marginTop="@dimen/_2sdp"
+                                               android:text="President-Solvent Extractors Association of India Joined Adani Group in 1997" />
+
+
+                                       </LinearLayout>
+
+
+
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+
+
+
+                            </LinearLayout>
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                 android:layout_marginTop="@dimen/_2sdp"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="@dimen/_2sdp"
+                                    android:layout_marginRight="@dimen/_2sdp"
+                                    android:layout_marginLeft="@dimen/_2sdp"
+                                    android:background="@drawable/whiterect"
+                                    android:padding="@dimen/_2sdp"
+                                    android:orientation="vertical"
+                                    android:layout_weight="1">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="horizontal"
+                                        android:layout_marginTop="@dimen/_2sdp">
+
+                                        <ImageView
+                                            android:layout_width="@dimen/_90sdp"
+                                            android:layout_height="@dimen/_70sdp"
+                                            android:layout_gravity="center"
+                                             android:src="@drawable/babbb"/>
+
+                                       <LinearLayout
+                                           android:layout_width="match_parent"
+                                           android:layout_height="wrap_content"
+                                           android:layout_marginLeft="@dimen/_5sdp"
+                                           android:layout_marginRight="@dimen/_5sdp"
+                                           android:orientation="vertical">
+
+
+                                           <TextView
+                                               android:layout_width="match_parent"
+                                               android:layout_height="wrap_content"
+                                               android:textSize="@dimen/_10sdp"
+                                               android:textColor="@color/black"
+                                               android:text="Mr. Atul Chaturvedi"
+                                               android:layout_marginTop="@dimen/_5sdp" />
+
+                                           <TextView
+                                               android:layout_width="match_parent"
+                                               android:layout_height="wrap_content"
+                                               android:textSize="@dimen/_10sdp"
+                                               android:textColor="@color/green"
+                                               android:layout_marginTop="@dimen/_2sdp"
+                                               android:text="Executive Chairman-Shree Renuka Sugars Ltd." />
+
+                                           <TextView
+                                               android:layout_width="match_parent"
+                                               android:layout_height="wrap_content"
+                                               android:textSize="@dimen/_10sdp"
+                                               android:textColor="@color/grey_dot"
+                                               android:layout_marginTop="@dimen/_2sdp"
+                                               android:text="President-Solvent Extractors Association of India Joined Adani Group in 1997" />
+
+
+                                       </LinearLayout>
+
+
+
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+
+
+
+                            </LinearLayout>
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                 android:layout_marginTop="@dimen/_2sdp"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="@dimen/_2sdp"
+                                    android:layout_marginRight="@dimen/_2sdp"
+                                    android:layout_marginLeft="@dimen/_2sdp"
+                                    android:background="@drawable/whiterect"
+                                    android:padding="@dimen/_2sdp"
+                                    android:orientation="vertical"
+                                    android:layout_weight="1">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="horizontal"
+                                        android:layout_marginTop="@dimen/_2sdp">
+
+                                        <ImageView
+                                            android:layout_width="@dimen/_90sdp"
+                                            android:layout_height="@dimen/_70sdp"
+                                            android:layout_gravity="center"
+                                             android:src="@drawable/babbb"/>
+
+                                       <LinearLayout
+                                           android:layout_width="match_parent"
+                                           android:layout_height="wrap_content"
+                                           android:layout_marginLeft="@dimen/_5sdp"
+                                           android:layout_marginRight="@dimen/_5sdp"
+                                           android:orientation="vertical">
+
+
+                                           <TextView
+                                               android:layout_width="match_parent"
+                                               android:layout_height="wrap_content"
+                                               android:textSize="@dimen/_10sdp"
+                                               android:textColor="@color/black"
+                                               android:text="Mr. Atul Chaturvedi"
+                                               android:layout_marginTop="@dimen/_5sdp" />
+
+                                           <TextView
+                                               android:layout_width="match_parent"
+                                               android:layout_height="wrap_content"
+                                               android:textSize="@dimen/_10sdp"
+                                               android:textColor="@color/green"
+                                               android:layout_marginTop="@dimen/_2sdp"
+                                               android:text="Executive Chairman-Shree Renuka Sugars Ltd." />
+
+                                           <TextView
+                                               android:layout_width="match_parent"
+                                               android:layout_height="wrap_content"
+                                               android:textSize="@dimen/_10sdp"
+                                               android:textColor="@color/grey_dot"
+                                               android:layout_marginTop="@dimen/_2sdp"
+                                               android:text="President-Solvent Extractors Association of India Joined Adani Group in 1997" />
+
+
+                                       </LinearLayout>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Category"
+                            android:visibility="gone"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:textAllCaps="true"
+                            android:singleLine="true"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:fontFamily="serif"
+                             android:layout_marginBottom="@dimen/_5sdp"
+                            android:gravity="left"
+                            android:paddingTop="@dimen/_5sdp"
+                            android:textSize="@dimen/_12sdp" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:visibility="gone"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="   Featured courses   "
+                                 android:background="@drawable/rect"
+                                android:backgroundTint="#9CEDECEC"
+                                android:padding="@dimen/_3sdp"
+                                 android:singleLine="true"
+                                android:textColor="#595858"
+                                android:textStyle="bold"
+                                android:fontFamily="serif"
+                                 android:gravity="left"
+                                 android:textSize="@dimen/_10sdp" />
+
+                              <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="   Most popular courses   "
+                                  android:layout_marginLeft="@dimen/_5sdp"
+                                 android:background="@drawable/rect"
+                                android:backgroundTint="#9CEDECEC"
+                                android:padding="@dimen/_3sdp"
+                                 android:singleLine="true"
+                                android:textColor="#595858"
+                                android:textStyle="bold"
+                                android:fontFamily="serif"
+                                 android:gravity="left"
+                                 android:textSize="@dimen/_10sdp" />
+
+
+
+
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:visibility="gone"
+                            android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:orientation="horizontal">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="   Design   "
+                                 android:background="@drawable/rect"
+                                android:backgroundTint="#9CEDECEC"
+                                android:padding="@dimen/_3sdp"
+                                 android:singleLine="true"
+                                android:textColor="#595858"
+                                android:textStyle="bold"
+                                android:fontFamily="serif"
+                                 android:gravity="left"
+                                 android:textSize="@dimen/_10sdp" />
+
+                              <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="   Developer   "
+                                  android:layout_marginLeft="@dimen/_5sdp"
+                                 android:background="@drawable/rect"
+                                android:backgroundTint="#9CEDECEC"
+                                android:padding="@dimen/_3sdp"
+                                 android:singleLine="true"
+                                android:textColor="#595858"
+                                android:textStyle="bold"
+                                android:fontFamily="serif"
+                                 android:gravity="left"
+                                 android:textSize="@dimen/_10sdp" />
+
+
+
+ <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="   IT &amp; Software   "
+                                  android:layout_marginLeft="@dimen/_5sdp"
+                                 android:background="@drawable/rect"
+                                android:backgroundTint="#9CEDECEC"
+                                android:padding="@dimen/_3sdp"
+                                 android:singleLine="true"
+                                android:textColor="#595858"
+                                android:textStyle="bold"
+                                android:fontFamily="serif"
+                                 android:gravity="left"
+                                 android:textSize="@dimen/_10sdp" />
+
+
+
+
+<TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="   Business   "
+                                  android:layout_marginLeft="@dimen/_5sdp"
+                                 android:background="@drawable/rect"
+                                android:backgroundTint="#9CEDECEC"
+                                android:padding="@dimen/_3sdp"
+                                 android:singleLine="true"
+                                android:textColor="#595858"
+                                android:textStyle="bold"
+                                android:fontFamily="serif"
+                                 android:gravity="left"
+                                 android:textSize="@dimen/_10sdp" />
+
+
+
+<TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="   Teaching &amp; Academics   "
+                                  android:layout_marginLeft="@dimen/_5sdp"
+                                 android:background="@drawable/rect"
+                                android:backgroundTint="#9CEDECEC"
+                                android:padding="@dimen/_3sdp"
+                                 android:singleLine="true"
+                                android:textColor="#595858"
+                                android:textStyle="bold"
+                                android:fontFamily="serif"
+                                 android:gravity="left"
+                                 android:textSize="@dimen/_10sdp" />
+
+
+
+
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:visibility="gone"
+                            android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:orientation="horizontal">
+
+
+
+
+
+
+<TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="   Teaching &amp; Academics   "
+                                  android:layout_marginLeft="@dimen/_5sdp"
+                                 android:background="@drawable/rect"
+                                android:backgroundTint="#9CEDECEC"
+                                android:padding="@dimen/_3sdp"
+                                 android:singleLine="true"
+                                android:textColor="#595858"
+                                android:textStyle="bold"
+                                android:fontFamily="serif"
+                                 android:gravity="left"
+                                 android:textSize="@dimen/_10sdp" />
+
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_view"
+                    android:layout_marginBottom="@dimen/_1sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/toolbarvv"
+                    android:scrollbars="vertical" />
+
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+            <LinearLayout
+    android:layout_width="match_parent"
+                android:visibility="gone"
+    android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/_5sdp"
+                android:paddingRight="@dimen/_5sdp"
+
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginRight="@dimen/_2sdp"
+        android:layout_weight="1"
+        android:id="@+id/Functional_Area"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:orientation="vertical"
+        android:background="@drawable/rect"
+        android:backgroundTint="#597C4DFF"
+        android:paddingBottom="@dimen/_5sdp"
+        android:layout_height="wrap_content">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/_70sdp"
+            android:padding="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_gravity="center"
+             android:layout_height="@dimen/_70sdp"
+            android:background="@drawable/white_circle"
+            android:backgroundTint="#2D434343"
+            android:src="@drawable/ic_settings"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/_2sdp"
+                android:layout_gravity="center"
+                android:layout_alignParentRight="true"
+                android:textAllCaps="true"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:text="Functional Area"
+                android:textSize="@dimen/_12sdp" />
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/cities"
+        android:layout_marginLeft="@dimen/_2sdp"
+        android:backgroundTint="#4D69F0AE"
+
+        android:layout_marginTop="@dimen/_5sdp"
+        android:orientation="vertical"
+        android:background="@drawable/rect"
+        android:paddingBottom="@dimen/_5sdp"
+        android:layout_height="wrap_content">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/_70sdp"
+            android:padding="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/white_circle"
+            android:backgroundTint="#2D434343"
+            android:layout_height="@dimen/_70sdp"
+            android:src="@drawable/ic_architecture_and_city"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:textColor="@color/black"
+                android:text="cities"
+                android:textAllCaps="true"
+                android:textSize="@dimen/_12sdp" />
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+
+                android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/_5sdp"
+    android:layout_marginRight="@dimen/_5sdp"
+     android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginRight="@dimen/_2sdp"
+        android:layout_weight="1"
+        android:id="@+id/Industries"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:orientation="vertical"
+        android:backgroundTint="#5EFFAB40"
+
+        android:background="@drawable/rect"
+        android:paddingBottom="@dimen/_5sdp"
+        android:layout_height="wrap_content">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/_70sdp"
+            android:padding="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/white_circle"
+            android:backgroundTint="#2D434343"
+             android:layout_height="@dimen/_70sdp"
+            android:src="@drawable/ic_factory"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/_2sdp"
+                android:layout_gravity="center"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:singleLine="true"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:text="Industries"
+                android:textSize="@dimen/_12sdp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/_2sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:orientation="vertical"
+        android:background="@drawable/rect"
+        android:visibility="invisible"
+        android:paddingBottom="@dimen/_5sdp"
+        android:layout_height="wrap_content">
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+</FrameLayout>

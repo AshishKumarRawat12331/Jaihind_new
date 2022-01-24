@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:id="@+id/play_video"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:id="@+id/video_imahe"
+                    android:visibility="gone"
+                    android:src="@drawable/rnd_logo"
+                    android:scaleType="fitXY"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_height="220dp"/>
+
+                <ImageView
+                    android:layout_width="@dimen/_40sdp"
+                    android:visibility="gone"
+
+                    android:layout_centerInParent="true"
+                    android:tint="@color/colorPrimary"
+                    android:src="@drawable/ic_play_circle_filled"
+                    android:layout_margin="@dimen/_8sdp"
+                    android:layout_height="@dimen/_40sdp"/>
+
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:id="@+id/youtube_player_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:videoId=""
+                     ads:showYouTubeButton="false"
+                    ads:showFullScreenButton="false"
+                    android:configChanges="orientation|keyboardHidden|screenSize"
+                    app:autoPlay="true" />
+
+                <ImageView
+                    android:layout_width="@dimen/_25sdp"
+                    android:tint="@color/colorPrimary"
+                    android:layout_gravity="center"
+                    android:id="@+id/fullscreen_button"
+                     android:src="@drawable/ic_baseline_aspect_ratio_24"
+                    android:layout_margin="@dimen/_8sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_height="@dimen/_20sdp"/>
+
+
+            </LinearLayout>
+
+
+            <!--                android:configChanges="orientation|keyboardHidden|screenSize"
+            -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="@drawable/rect"
+                    android:layout_margin="@dimen/_6sdp"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12dp"
+                        android:maxLines="1"
+                        android:layout_marginBottom="@dimen/_2sdp"
+                        android:id="@+id/tittle"
+                        android:text="tittle"
+                        android:gravity="center"
+                        android:drawableTint="@color/colorPrimary"
+                        android:drawableLeft="@drawable/ic_baseline_apps_24"
+                        android:textColor="@color/black" />
+
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_6sdp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/course"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_weight="1"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:layout_width="match_parent"
+                            android:backgroundTint="@color/colorPrimary"
+                            android:layout_height="match_parent"
+                            android:text="    Comment    "
+                            android:background="@drawable/rect_ask_question"
+                            android:padding="@dimen/_8sdp"
+                             android:id="@+id/Comment_tv"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/_8sdp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_weight="1"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:layout_width="match_parent"
+                            android:background="@drawable/rect_ask_question"
+                            android:layout_height="match_parent"
+                            android:text="     Description     "
+                            android:id="@+id/description_tv"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+                <FrameLayout
+                    android:id="@+id/main_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

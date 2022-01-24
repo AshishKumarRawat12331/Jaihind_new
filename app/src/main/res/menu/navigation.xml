@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+     <item
+        android:id="@+id/Special_update"
+         android:visible="false"
+        android:icon="@drawable/ic_baseline_folder_special_24"
+        android:title="Special" />
+
+
+    <!--Free Courses-->
+    <item
+         android:id="@+id/free_Courses"
+        android:icon="@drawable/ic_baseline_star_24"
+        android:title="Live Session" />
+
+    <item
+        android:id="@+id/Courses"
+         android:icon="@drawable/ic_baseline_stars_24"
+        android:title="Courses" />
+
+    <item
+        android:id="@+id/Blog"
+        android:visible="false"
+        android:icon="@drawable/ic_baseline_amp_stories_24"
+        android:title="Blog" />
+
+      <item
+        android:id="@+id/Ask_Question"
+        android:icon="@drawable/ic_baseline_question_answer_24"
+        android:title="Free Video" />
+
+</menu>

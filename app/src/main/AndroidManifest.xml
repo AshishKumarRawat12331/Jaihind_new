@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="Jaihindlms">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- Declaring the required permissions -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:icon">
+        <activity android:name="Jaihindlms.Activity.ContactUsActivity"></activity>
+        <activity android:name="Jaihindlms.SimpleExoPlayerViewActivityActivity" />
+        <activity android:name="Jaihindlms.YoutubeVideoActivity" />
+        <activity
+            android:name="Jaihindlms.YoutubeVideoPlayNew"
+            android:screenOrientation="landscape" />
+        <activity android:name="Jaihindlms.Activity.YoutubeFuuscreenActivity" />
+        <activity
+            android:name="Jaihindlms.Activity.VideoPlayerActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name="Jaihindlms.Activity.BlogCategoryActivity" />
+        <activity android:name="Jaihindlms.Activity.EnrollVideoCategoryActivity" />
+        <activity
+            android:name="Jaihindlms.Activity.CouressDetailPAyActivity"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity android:name="Jaihindlms.Activity.ChangePasswordActivity" />
+        <activity
+            android:name="Jaihindlms.Activity.WebViewActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name="Jaihindlms.Activity.ProfileActivity" />
+        <activity android:name="Jaihindlms.Activity.EditProfileuserlActivity" />
+        <activity android:name="Jaihindlms.Activity.SearchActivity" />
+        <activity android:name="Jaihindlms.Activity.PlayVideo" />
+        <activity
+            android:name="Jaihindlms.Activity.PlayVideoNew"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout" />
+        <!--
+   <activity android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:name=".Activity.PlayVideoNew"/>
+        -->
+        <activity
+            android:name="Jaihindlms.Activity.PlaySelectVideoNew"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity android:name="Jaihindlms.Activity.EnrollGetActivity" />
+        <activity android:name="Jaihindlms.Activity.BlogDetailActivity" />
+        <activity android:name="Jaihindlms.Activity.SignupAllActivity" />
+        <activity android:name="Jaihindlms.Activity.ViewAllCategoryActivity" />
+        <activity android:name="Jaihindlms.Activity.CourseDetailCategoryActivity" />
+        <activity android:name="Jaihindlms.Activity.GetPackageCourseCategoryActivity" />
+        <activity android:name="Jaihindlms.Activity.SearchActivityCourse" />
+        <activity android:name="Jaihindlms.Splash.ui.AccountSelectActivity" />
+        <activity android:name="Jaihindlms.Activity.VideoCommentDescriptionActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="Jaihindlms.Login.ui.LoginActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/CropTheme" />
+        <activity
+            android:name="Jaihindlms.Splash.ui.SplashSlider"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="Jaihindlms.Splash.ui.Splash"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="Jaihindlms.MyMapPlacesApiActivityType2" />
+        <activity android:name="Jaihindlms.Dashboard.ui.DashboardMain" />
+        <activity android:name="Jaihindlms.Dashboard.DashboadNew.MainActivity" />
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_live_IF1M0XHkK6GfKn" />
+        <!--
+  <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_i6ryz9gyvLqVpB" />
+        -->
+        <service android:name="Jaihindlms.Notification.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

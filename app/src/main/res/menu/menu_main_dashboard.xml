@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+    <item
+        android:id="@+id/image_view"
+        android:title="Seach"
+        android:icon="@drawable/ic_gallery"
+        app:showAsAction="always"
+        android:visible="false"/>
+
+  <item
+      android:title="Seach"
+        android:icon="@drawable/ic_search_white_24dp"
+        app:showAsAction="always"
+        android:visible="false"/>
+
+   <item
+        android:id="@+id/notification"
+        android:title="Send"
+        android:icon="@drawable/notification"
+        app:showAsAction="always"
+       android:visible="false"/>
+
+
+    <item
+        android:id="@+id/action_setting"
+        android:title="Settings"
+         android:icon="@drawable/ic_share_black_24dp"
+        app:showAsAction="always"
+         />
+
+
+
+
+
+</menu>

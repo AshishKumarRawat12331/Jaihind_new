@@ -1,0 +1,399 @@
+{
+  "project_info": {
+    "project_number": "425678224102",
+    "project_id": "lmsproject-888e3",
+    "storage_bucket": "lmsproject-888e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425678224102:android:15ae3eee012d28447f9927",
+        "android_client_info": {
+          "package_name": "co.civilguruji.Jagadambha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425678224102-kbutru04lilq9d9ndotaaqpnc2mtjrlt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.civilguruji.Jagadambha",
+            "certificate_hash": "f1a6bedc78b246ef56086bad87d487bd3080dc47"
+          }
+        },
+        {
+          "client_id": "425678224102-4ofrmuvj63n2gpnurri2srh15lso58cs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8e2nmQR76V_x4CgGEUgk8SSSlAvWkHGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425678224102-4ofrmuvj63n2gpnurri2srh15lso58cs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425678224102:android:c98ed02d13a893d27f9927",
+        "android_client_info": {
+          "package_name": "co.civilguruji.Jagadambhaclg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425678224102-4h2jl41v2ptbklnmgh0loft5h2nnrloq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.civilguruji.Jagadambhaclg",
+            "certificate_hash": "f1a6bedc78b246ef56086bad87d487bd3080dc47"
+          }
+        },
+        {
+          "client_id": "425678224102-4ofrmuvj63n2gpnurri2srh15lso58cs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8e2nmQR76V_x4CgGEUgk8SSSlAvWkHGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425678224102-4ofrmuvj63n2gpnurri2srh15lso58cs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425678224102:android:9e0910fe85857d4d7f9927",
+        "android_client_info": {
+          "package_name": "co.civilguruji.Jagadambhalms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425678224102-r8c5jtcbgs37u6sgq8k7o2la7njja0k7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.civilguruji.Jagadambhalms",
+            "certificate_hash": "f1a6bedc78b246ef56086bad87d487bd3080dc47"
+          }
+        },
+        {
+          "client_id": "425678224102-4ofrmuvj63n2gpnurri2srh15lso58cs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8e2nmQR76V_x4CgGEUgk8SSSlAvWkHGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425678224102-4ofrmuvj63n2gpnurri2srh15lso58cs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425678224102:android:b1c264e86acfc7457f9927",
+        "android_client_info": {
+          "package_name": "co.civilguruji.Jaihindlms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425678224102-l6vgg1rqqc29evs02hr459hl6nad3if2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.civilguruji.Jaihindlms",
+            "certificate_hash": "f2f5bba88641e375787c3cae11ae7bd6aa1677ed"
+          }
+        },
+        {
+          "client_id": "425678224102-4ofrmuvj63n2gpnurri2srh15lso58cs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8e2nmQR76V_x4CgGEUgk8SSSlAvWkHGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425678224102-4ofrmuvj63n2gpnurri2srh15lso58cs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425678224102:android:120b83d7534f1ef87f9927",
+        "android_client_info": {
+          "package_name": "co.civilguruji.rkdf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425678224102-6fmfru9adgmpj0bidsnceq0rngmqmsqa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.civilguruji.rkdf",
+            "certificate_hash": "6ee8fa76f1c18b00473ae166fc216e7193638c5e"
+          }
+        },
+        {
+          "client_id": "425678224102-rc505nduf4hj8h2ge57d3fsj0ta632j0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.civilguruji.rkdf",
+            "certificate_hash": "f1a6bedc78b246ef56086bad87d487bd3080dc47"
+          }
+        },
+        {
+          "client_id": "425678224102-4ofrmuvj63n2gpnurri2srh15lso58cs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8e2nmQR76V_x4CgGEUgk8SSSlAvWkHGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425678224102-4ofrmuvj63n2gpnurri2srh15lso58cs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425678224102:android:8b102d8db8b718367f9927",
+        "android_client_info": {
+          "package_name": "co.jobsearch.Millenniumlms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425678224102-cakrestvalil9f74b4fuk9j3gqdrtidi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.jobsearch.Millenniumlms",
+            "certificate_hash": "eab56daff92ad298f4d261a209ea7f9bed474943"
+          }
+        },
+        {
+          "client_id": "425678224102-uujusfgmnqj8aectjdijuf5bmjrgf3uc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.jobsearch.Millenniumlms",
+            "certificate_hash": "837efe08bc7454e8c8284003715c5601cda72fbf"
+          }
+        },
+        {
+          "client_id": "425678224102-4ofrmuvj63n2gpnurri2srh15lso58cs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8e2nmQR76V_x4CgGEUgk8SSSlAvWkHGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425678224102-4ofrmuvj63n2gpnurri2srh15lso58cs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425678224102:android:8e0f3637b84594df7f9927",
+        "android_client_info": {
+          "package_name": "co.jobsearch.Panipat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425678224102-lrq956a9fcv3hs22cr0dhuho52kr5bqo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.jobsearch.Panipat",
+            "certificate_hash": "4b846cec9678294247503324c4c6317640b3e4a8"
+          }
+        },
+        {
+          "client_id": "425678224102-qba1pc9kjq9fp28pf3l0k53d2ff3gau2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.jobsearch.Panipat",
+            "certificate_hash": "1f18d2bbf23420fa318eed78fa89e9480ac0b6b0"
+          }
+        },
+        {
+          "client_id": "425678224102-rf143db56a9lcvtfb4c47a49mkjfr7ua.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.jobsearch.Panipat",
+            "certificate_hash": "eab56daff92ad298f4d261a209ea7f9bed474943"
+          }
+        },
+        {
+          "client_id": "425678224102-4ofrmuvj63n2gpnurri2srh15lso58cs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8e2nmQR76V_x4CgGEUgk8SSSlAvWkHGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425678224102-4ofrmuvj63n2gpnurri2srh15lso58cs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425678224102:android:23e7cd785849855b7f9927",
+        "android_client_info": {
+          "package_name": "co.jobsearch.Polytechnic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425678224102-ef0n73j563ni233fpgs82rk71coksh5p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.jobsearch.Polytechnic",
+            "certificate_hash": "4b846cec9678294247503324c4c6317640b3e4a8"
+          }
+        },
+        {
+          "client_id": "425678224102-fb21vfmpub876jusree8e6sah6i2srbq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.jobsearch.Polytechnic",
+            "certificate_hash": "2e3bc64f03372406c6366a584bc3d086556a4251"
+          }
+        },
+        {
+          "client_id": "425678224102-lkkofie71h2qppcomgu9ahnbtfm7atgf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.jobsearch.Polytechnic",
+            "certificate_hash": "1f18d2bbf23420fa318eed78fa89e9480ac0b6b0"
+          }
+        },
+        {
+          "client_id": "425678224102-o0ov0uvcqk2cdtdclpi5ldmn0hvt7dos.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.jobsearch.Polytechnic",
+            "certificate_hash": "eab56daff92ad298f4d261a209ea7f9bed474943"
+          }
+        },
+        {
+          "client_id": "425678224102-4ofrmuvj63n2gpnurri2srh15lso58cs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8e2nmQR76V_x4CgGEUgk8SSSlAvWkHGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425678224102-4ofrmuvj63n2gpnurri2srh15lso58cs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425678224102:android:87ae7491146548e37f9927",
+        "android_client_info": {
+          "package_name": "co.jobsearch.jaihind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425678224102-mb4iqp4cj63ul882dhbivqchb8tq7odv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.jobsearch.jaihind",
+            "certificate_hash": "eab56daff92ad298f4d261a209ea7f9bed474943"
+          }
+        },
+        {
+          "client_id": "425678224102-4ofrmuvj63n2gpnurri2srh15lso58cs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8e2nmQR76V_x4CgGEUgk8SSSlAvWkHGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425678224102-4ofrmuvj63n2gpnurri2srh15lso58cs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

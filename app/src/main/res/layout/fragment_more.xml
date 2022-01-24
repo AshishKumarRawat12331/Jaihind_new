@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.LectureFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@color/black"
+                android:text="Course requests"
+                android:textStyle="bold"
+                android:layout_margin="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                />
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_2sdp"
+                android:gravity="center"
+                android:background="@drawable/whiterect"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:src="@drawable/analytics"
+                    android:padding="@dimen/_8sdp"
+                    android:layout_height="80dp"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="85dp"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+
+                    >
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_10sdp"
+                        android:textColor="#656565"
+                        android:text="Advanced xamarin Course"
+                        android:textStyle="bold"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        />
+
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_10sdp"
+                        android:textColor="@color/grey_dot"
+                        android:drawableLeft="@drawable/ic__heartt"
+                        android:drawableTint="@color/colorPrimary"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:text=" 0 "
+                        android:layout_marginBottom="@dimen/_1sdp" />
+
+
+                </LinearLayout>
+
+
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_2sdp"
+                android:gravity="center"
+                android:background="@drawable/whiterect"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:src="@drawable/developing"
+                    android:padding="@dimen/_8sdp"
+                    android:layout_height="80dp"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="85dp"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+
+                    >
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_10sdp"
+                        android:textColor="#656565"
+                        android:text="Advanced illustrator Course"
+                        android:textStyle="bold"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        />
+
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_10sdp"
+                        android:textColor="@color/grey_dot"
+                        android:drawableLeft="@drawable/ic__heartt"
+                        android:drawableTint="@color/colorPrimary"
+
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:text=" 0 "
+                        android:layout_marginBottom="@dimen/_1sdp" />
+
+
+                </LinearLayout>
+
+
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_2sdp"
+                android:gravity="center"
+                android:background="@drawable/whiterect"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:src="@drawable/webdesign"
+                    android:padding="@dimen/_8sdp"
+                    android:layout_height="80dp"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="85dp"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+
+                    >
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_10sdp"
+                         android:textColor="#656565"
+                        android:text="Sony PlayStation 4 Repair"
+                        android:textStyle="bold"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        />
+
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_10sdp"
+                        android:drawableLeft="@drawable/ic__heartt"
+                        android:drawableTint="@color/colorPrimary"
+
+                        android:textColor="@color/grey_dot"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:text=" 0 "
+                        android:layout_marginBottom="@dimen/_1sdp" />
+
+
+                </LinearLayout>
+
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_2sdp"
+                android:gravity="center"
+                android:background="@drawable/whiterect"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:src="@drawable/webdesign"
+                    android:padding="@dimen/_8sdp"
+                    android:layout_height="80dp"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="85dp"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+
+                    >
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_10sdp"
+                        android:textColor="#656565"
+                        android:text="Advanced English Learn"
+                        android:textStyle="bold"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        />
+
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_10sdp"
+                        android:drawableLeft="@drawable/ic__heartt"
+                        android:drawableTint="@color/colorPrimary"
+
+                        android:textColor="@color/grey_dot"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:text=" 0 "
+                        android:layout_marginBottom="@dimen/_1sdp" />
+
+
+                </LinearLayout>
+
+
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@color/black"
+                android:text="Coming soon courses"
+                android:textStyle="bold"
+                android:layout_margin="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                />
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_2sdp"
+                android:gravity="center"
+                android:background="@drawable/whiterect"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:src="@drawable/analytics"
+                    android:padding="@dimen/_8sdp"
+                    android:layout_height="80dp"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="85dp"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+
+                    >
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_10sdp"
+                         android:text="Fix Hard Disk"
+                        android:textColor="#656565"
+
+                        android:textStyle="bold"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        />
+
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_10sdp"
+                        android:drawableLeft="@drawable/ic__heartt"
+                        android:drawableTint="@color/colorPrimary"
+
+                        android:textColor="@color/grey_dot"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:text=" 0 "
+                        android:layout_marginBottom="@dimen/_1sdp" />
+
+
+
+                </LinearLayout>
+
+
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_2sdp"
+                android:gravity="center"
+                android:background="@drawable/whiterect"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:src="@drawable/developing"
+                    android:padding="@dimen/_8sdp"
+                    android:layout_height="80dp"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="85dp"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+
+                    >
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_10sdp"
+                        android:textColor="#656565"
+                        android:text="New Course"
+                        android:textStyle="bold"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        />
+
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_10sdp"
+                        android:drawableLeft="@drawable/ic__heartt"
+                        android:drawableTint="@color/colorPrimary"
+
+                        android:textColor="@color/grey_dot"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:text=" 0 "
+                        android:layout_marginBottom="@dimen/_1sdp" />
+
+
+
+                </LinearLayout>
+
+
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_2sdp"
+                android:gravity="center"
+                android:background="@drawable/whiterect"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:src="@drawable/webdesign"
+                    android:padding="@dimen/_8sdp"
+                    android:layout_height="80dp"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="85dp"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+
+                    >
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_10sdp"
+                        android:textColor="#656565"
+                        android:text="Social Marketing"
+                        android:textStyle="bold"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        />
+
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_10sdp"
+                        android:drawableLeft="@drawable/ic__heartt"
+                        android:drawableTint="@color/colorPrimary"
+
+                        android:textColor="@color/grey_dot"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:text=" 0 "
+                        android:layout_marginBottom="@dimen/_1sdp" />
+
+
+
+                </LinearLayout>
+
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_2sdp"
+                android:gravity="center"
+                android:background="@drawable/whiterect"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:src="@drawable/analytics"
+                    android:padding="@dimen/_8sdp"
+                    android:layout_height="80dp"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="85dp"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+
+                    >
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_10sdp"
+                        android:textColor="#656565"
+                        android:text="Healthy Skin"
+                        android:textStyle="bold"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        />
+
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_10sdp"
+                        android:drawableLeft="@drawable/ic__heartt"
+                        android:drawableTint="@color/colorPrimary"
+
+                        android:textColor="@color/grey_dot"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:text=" 0 "
+                        android:layout_marginBottom="@dimen/_1sdp" />
+
+
+
+                </LinearLayout>
+
+
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_2sdp"
+                android:gravity="center"
+                android:background="@drawable/whiterect"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:src="@drawable/developing"
+                    android:padding="@dimen/_8sdp"
+                    android:layout_height="80dp"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="85dp"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+
+                    >
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_10sdp"
+                        android:textColor="#656565"
+                        android:text="Math Course"
+                        android:textStyle="bold"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        />
+
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_10sdp"
+                        android:drawableLeft="@drawable/ic__heartt"
+                        android:drawableTint="@color/colorPrimary"
+
+                        android:textColor="@color/grey_dot"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:text=" 0 "
+                        android:layout_marginBottom="@dimen/_1sdp" />
+
+
+
+                </LinearLayout>
+
+
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+</FrameLayout>

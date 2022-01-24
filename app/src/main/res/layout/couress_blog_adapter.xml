@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/click_blog"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rect_mobile"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:layout_marginRight="@dimen/_4sdp"
+            android:layout_marginTop="@dimen/_4sdp"
+
+            android:orientation="horizontal">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="75dp"
+                android:padding="@dimen/_5sdp"
+                android:layout_height="75dp"
+                android:id="@+id/image_post"
+                android:tint="@color/colorPrimary"
+                android:src="@drawable/rnd_logo"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:id="@+id/title"
+                    android:singleLine="true"
+                    android:textColor="#1E1E1E"
+                    android:text="match_parent   "
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                     android:textSize="12dp"
+                    android:singleLine="true"
+                    android:textColor="#3C3C3C"
+                    android:id="@+id/date"
+                     android:text="match_parent   "
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"  />
+
+                <WebView
+                    android:layout_width="fill_parent"
+                    android:visibility="gone"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/webview"></WebView>
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     tools:context=".Fragment.LectureFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/msg_box"
+             android:layout_height="wrap_content"
+             android:padding="7dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/rect_amount"
+            android:layout_marginTop="@dimen/_8sdp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+
+                android:drawableLeft="@drawable/ic_baseline_keyboard_24"
+                android:drawablePadding="@dimen/_10sdp"
+                android:id="@+id/ed_Comment"
+                android:hint="write a Comment.."
+                  android:textSize="@dimen/_14sdp"
+                 android:layout_toLeftOf="@+id/tv_Submit"
+                android:background="@null"
+                android:layout_centerVertical="true"
+                android:imeOptions="actionDone"/>
+
+            <TextView
+                android:id="@+id/tv_Submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Submit  "
+                android:padding="@dimen/_4sdp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_11sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/rect_recharge"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_alignParentRight="true" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/li_linear"
+            android:layout_below="@+id/msg_box"
+            android:layout_marginBottom="50dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_course_cat"
+                android:layout_marginBottom="@dimen/_1sdp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:padding="@dimen/_5sdp"
+                android:layout_below="@+id/uploadrrr"
+                android:scrollbars="vertical" />
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="80dp"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:src="@drawable/commingshoon"/>
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>
